@@ -1,24 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Hello
+namespace Exercise2CSharp
 {
-    class Hello
+    class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("    CCCCCCCCCC        ###    ###");
-            Console.WriteLine("   CCCCCCCCCCC        ###    ###");
-            Console.WriteLine("  CCCCCCCCCCCC        ###    ###");
-            Console.WriteLine("  CCCC             ################");
-            Console.WriteLine(" CCCC              ################");
-            Console.WriteLine(" CCC                  ###    ###");
-            Console.WriteLine(" CCC                  ###    ###");
-            Console.WriteLine(" CCCC              ################ ");
-            Console.WriteLine("  CCCC             ################ ");
-            Console.WriteLine("  CCCCCCCCCCCC        ###    ###");
-            Console.WriteLine("   CCCCCCCCCCC        ###    ###");
-            Console.WriteLine("    CCCCCCCCCC        ###    ###");
-            Console.Read();
+            Console.WriteLine("    CCCCCCCCCC\t\t###    ###");
+            Console.WriteLine("   CCCCCCCCCCC\t\t###    ###");
+            Console.WriteLine("  CCCCCCCCCCCC\t\t###    ###");
+            Console.WriteLine("  CCCC\t\t     ################");
+            Console.WriteLine(" CCCC\t\t     ################");
+            Console.WriteLine(" CCC\t\t\t###    ###");
+            Console.WriteLine(" CCC\t\t\t###    ###");
+            Console.WriteLine(" CCCC\t\t     ################");
+            Console.WriteLine("  CCCC\t\t     ################");
+            Console.WriteLine("  CCCCCCCCCCCC\t\t###    ###");
+            Console.WriteLine("   CCCCCCCCCCC\t\t###    ###");
+            Console.WriteLine("    CCCCCCCCCC\t\t###    ###");
         }
     }
 }
